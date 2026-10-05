@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rb{
+position: absolute;
+bottom: 40px;
+left: 40px;
+}
+.rb h1{
+    color:black;
+    filter: opacity(40%);
+}
+.all{
+ background-image: url(Photos/hamburger\ \(1\).jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.head {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 4px;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 10px 10px 10px #cccccce0;
+    z-index: 1000;
+}
+
+.right{
+    display: flex;
+    font-size: 20px;
+
+
+}
+.head p, .right p {
+    margin: 15px 15px 15px 15px;
+}
+
+
+
+.back_photo{
+   
+}
+.center{
+    margin:100px auto ;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.center div{
+    width: 48%;
+}
+.text{
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: center;
+}
+.pho{
+
+}
+
+.imgs{
+width: 100%;
+filter: opacity(85%);
+
+}
+.lir{
+    display: block;
+    text-align: left;
+}
+.lirg{
+    display: block;
+    text-align: left;
+    color: gray;
+}
+.text h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+hr{
+    margin: auto;
+    width: 80%;
+    filter: opacity(40%);
+}
+.text_m h3{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text_m{
+
+}
+.food{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.gray{
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-top: 15px;
+    filter: opacity(50%);
+}
+.center_m{
+   margin:100px auto ;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.center_m div{
+    width: 100%;
+}
